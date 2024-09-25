@@ -1,0 +1,298 @@
+:root{
+ --tuwaiq-purple: rgb(79,55,149) 
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  overflow-x: hidden;
+}
+html {
+  font-family: Next, sans-serif;
+}
+
+.tuwaiq-nav{
+  background-color: var(--tuwaiq-purple) !important;
+  color: white !important;
+}
+
+svg{
+  margin: 3px;
+  margin-left: 1em;
+}
+ 
+
+.navbar-brand img {
+  filter: brightness(0) invert(1);
+  width: 100%;
+}
+
+.navbar-brand{
+  width: 145px;
+}
+
+.bg-gray{
+  background-color: #f5f6fa;
+}
+
+.btn-outline-purple{
+  margin: 5px;
+ 
+  background-color: transparent;
+  color: var(--tuwaiq-purple);
+  font-size: 1.2em;
+  border: 2px solid var(--tuwaiq-purple) !important;
+}
+
+
+.btn-outline-purple:hover{
+  margin: 5px;
+ 
+  background-color: var(--tuwaiq-purple);
+ color: white;
+  font-size: 1.2em;
+ 
+}
+
+.btn-purple:hover{
+  margin: 5px;
+ 
+  background-color: rgb(136, 17, 192);
+  color: white;
+  font-size: 1.2em;
+}
+
+.btn-white{
+  margin: 5px;
+ 
+  background-color: white;
+  color: var(--tuwaiq-purple);
+  font-size: 1.2em;
+
+}
+
+.btn-white:hover{
+ 
+  background-color: rgb(198, 198, 198);
+ 
+
+}
+
+.text-purple{
+  color: var(--tuwaiq-purple);
+}
+
+.cards-container{
+  background-color: #f6f5fa;
+}
+
+.card{
+  width: 23em;
+}
+.card-bootcamp{
+
+  border-right: 15px solid  #90d8da!important ;
+  border-radius: 10px !important;
+  transition: 0.5s;
+}
+
+.card-bootcamp .card-bootcamp-subtitle{
+  color: #90d8da
+}
+
+
+.card-bootcamp button{
+ background-color: transparent;
+ border: 2px solid  #90d8da;
+ color:  #90d8da;
+ font-family: 800;
+ font-size: 1.1em;
+}
+
+
+.card-talk{
+
+  border-right: 15px solid  #ba88fb !important;
+  border-radius: 10px !important;
+  transition: 0.5s;
+}
+
+.card-talk .card-bootcamp-subtitle{
+  color: #ba88fb
+}
+
+
+.card-talk button {
+  background-color: transparent;
+  border: 2px solid  #ba88fb;
+  color: #ba88fb ;
+}
+
+
+.card-program{
+
+  border-right: 15px solid #adafed !important;
+  border-radius: 10px !important;
+  transition: 0.5s;
+  
+}
+
+
+.card-program button{
+  background-color: transparent;
+  border: 2px solid  #adafed;
+  color: #adafed ;
+
+}
+
+.card-program .card-bootcamp-subtitle{
+  color: #adafed;
+}
+
+
+
+
+
+.card-ended{
+
+  border-right: 15px solid  rgb(157, 157, 157) !important;
+  border-radius: 10px !important;
+}
+
+
+.card-ended button{
+  background-color: transparent;
+  border: 2px solid  rgb(157, 157, 157);
+  color: rgb(157, 157, 157) ;
+  cursor: default;
+
+}
+
+.card-ended .card-bootcamp-subtitle{
+  color: rgb(157, 157, 157);
+}
+
+.gray-circle{
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+   align-items: center;
+   border-radius: 50%;
+}
+
+
+
+
+.card-talk:hover{
+ transform: scale(1.1) ;
+ opacity: 0.8;
+}
+
+.card-bootcamp:hover{
+ transform: scale(1.1) ;
+ opacity: 0.8;
+}
+
+
+.card-program:hover{
+ transform: scale(1.1) ;
+ opacity: 0.8;
+}
+
+.application-icon{
+  width: 60px;
+  height: 60px;
+  background-color: #91d9db;
+  border-radius: 50%;
+ 
+}
+
+
+.user::after{
+  font-family: FontAwesome;
+ content: "\f007";
+ color: white;
+ font-size: 1.3em;
+}
+
+.scroll::after{
+  font-family: FontAwesome;
+ content: "\f1ea";
+ color: white;
+}
+
+.mouse::after{
+  font-family: FontAwesome;
+ content: "\f245";
+ color: white;
+}
+
+.lines{
+  color: transparent;
+  height: 50%;
+  border-bottom: 2px dashed purple;
+}
+
+
+@media (max-width:400px){
+  .card{
+    width: 17em !important;
+  }
+
+  button{
+    font-size: 0.7em ;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+ 
+ 
+  }
+
+  .icon-title{
+    font-size: 0.7em;
+  }
+}
+
+.title{
+  font-size: 1.6em;
+}
+
+
+
+
+
+
+
+@media (min-width:120px){
+  .tuwaiq-footer-logo{
+    filter: brightness(0) invert(1);
+  width: 85% !important;
+ }
+}
+
+
+@media (min-width:480px){
+  .tuwaiq-footer-logo{
+    filter: brightness(0) invert(1);
+  width: 70% !important;
+ }
+}
+
+
+@media (min-width:670px){
+  .tuwaiq-footer-logo{
+    filter: brightness(0) invert(1);
+  width: 50% !important;
+ }
+}
+
+
+@media (min-width:992px){
+  .tuwaiq-footer-logo{
+    filter: brightness(0) invert(1);
+  width: 100% !important;
+ }
+}
+ 
